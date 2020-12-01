@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Tic Tac Toe Game</h1>
+    <div class="game">
+        <div class="col col1">
+            <p class="box" id="1-1" onclick="fillboard(1,1)">Empty!</p>
+            <p class="box" id="1-2" onclick="fillboard(1,2)">Empty!</p>
+            <p class="box" id="1-3" onclick="fillboard(1,3)">Empty!</p>
+        </div>
+        <div class="col col2">
+            <p class="box" id="2-1" onclick="fillboard(2,1)">Empty!</p>
+            <p class="box" id="2-2" onclick="fillboard(2,2)">Empty!</p>
+            <p class="box" id="2-3" onclick="fillboard(2,3)">Empty!</p>
+        </div>
+        <div class="col col3">
+            <p class="box" id="3-1" onclick="fillboard(3,1)">Empty!</p>
+            <p class="box" id="3-2" onclick="fillboard(3,2)">Empty!</p>
+            <p class="box" id="3-3" onclick="fillboard(3,3)">Empty!</p>
+        </div>
+    </div>
+
+    <div class="btn"><button onclick="reload()">RESET GAME</button></div>
+    <script src="./index.js"></script>
+</body>
+</html>
